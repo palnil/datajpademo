@@ -1,7 +1,7 @@
-package com.yoshallc.data.data;
+package com.yoshallc.data;
 
-import com.yoshallc.data.data.repository.PersonRepository;
-import com.yoshallc.data.data.entities.Person;
+import com.yoshallc.data.repository.PersonRepository;
+import com.yoshallc.data.entities.Person;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

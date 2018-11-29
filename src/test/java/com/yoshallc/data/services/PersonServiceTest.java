@@ -1,11 +1,10 @@
-package com.yoshallc.data.data.services;
+package com.yoshallc.data.services;
 
-import com.yoshallc.data.data.entities.Person;
-import com.yoshallc.data.data.repository.PersonRepository;
+import com.yoshallc.data.entities.Person;
+import com.yoshallc.data.repository.PersonRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.Mock;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
@@ -32,7 +31,7 @@ class PersonServiceTest {
 
         PersonService personService = new PersonService(personRepository);
 
-        Person  person1 =new Person("Nilesh","Patel","Male", 38);
+        Person person1 =new Person("Nilesh","Patel","Male", 38);
         Person person2 = new Person("Palak","Patel","Female", 39);
         Person person3 = new Person("Swina","Patel","Female", 13);
         Person person4 = new Person("Stuti","Patel","Female", 10);

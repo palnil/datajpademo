@@ -1,7 +1,7 @@
-package com.yoshallc.data.data.controllers;
+package com.yoshallc.data.controllers;
 
-import com.yoshallc.data.data.entities.Person;
-import com.yoshallc.data.data.services.PersonService;
+import com.yoshallc.data.entities.Person;
+import com.yoshallc.data.services.PersonService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

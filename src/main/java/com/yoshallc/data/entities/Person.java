@@ -1,4 +1,4 @@
-package com.yoshallc.data.data.entities;
+package com.yoshallc.data.entities;
 
 
 import lombok.*;
