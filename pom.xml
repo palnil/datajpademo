@@ -141,9 +141,8 @@
                             <dataFile>${project.basedir}/target/coverage-reports/jacoco.exec</dataFile>
                             <outputDirectory>${project.basedir}/target/site/jacoco-ut</outputDirectory>
                             <excludes>
-                                <exclude>
-                                    **/entities/*.class
-                                </exclude>
+                                <exclude>**/entities/*.class</exclude>
+                                <exclude>**/*Application.class</exclude>
                             </excludes>
                         </configuration>
                     </execution>
