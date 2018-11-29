@@ -21,4 +21,9 @@ public class PersonService {
        return personRepository.findAll();
     }
 
+    public List<Person> getAdults(){
+
+        return personRepository.findAdults();
+    }
+
 }

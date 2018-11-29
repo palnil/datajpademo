@@ -26,4 +26,11 @@ public class PersonController {
        return responseEntity;
     }
 
+    @GetMapping("/adults")
+    public ResponseEntity<List<Person>> getAdults(){
+
+        ResponseEntity<List<Person>> responseEntity = new ResponseEntity <List<Person>>(personService.getAdults(), HttpStatus.OK);
+        return responseEntity;
+    }
+
 }
