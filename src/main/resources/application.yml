@@ -2,6 +2,18 @@ server:
   port: 8085
 
 spring:
-  h2:
-    console:
-      enabled: true
+  #h2:
+   # console:
+    #  enabled: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/HR
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5Dialect
+#        format_sql: true

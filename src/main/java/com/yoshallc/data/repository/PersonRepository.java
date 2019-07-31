@@ -12,8 +12,5 @@ public interface PersonRepository extends JpaRepository<Person,Long> {
     @Query(nativeQuery = true, value = "select * from PERSON where age > 18")
     public List<Person> findAdults();
 
-   /* @Modifying
-    @Query(nativeQuery = true, value = "update NFCC_APP_DATA set NFCC_LAST_FOUR = ?2 where NFCC_AP_APPLCTN_ID = ?1")
-    public void saveLastFour(long applicationId, String lastFour);
-*/
+
 }

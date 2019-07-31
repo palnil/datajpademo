@@ -14,7 +14,7 @@ public class Application {
 
         SpringApplication.run(Application.class);
     }
-
+/*
     @Bean
     public CommandLineRunner demo(PersonRepository repository) {
         return (args) -> {
@@ -25,5 +25,5 @@ public class Application {
             repository.save(new Person("Stuti","Patel","Female", 10));
 
         };
-    }
+    }*/
 }
