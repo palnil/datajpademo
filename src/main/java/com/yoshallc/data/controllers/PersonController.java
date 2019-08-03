@@ -22,15 +22,13 @@ public class PersonController {
     @GetMapping("/persons")
     public ResponseEntity<List<Person>> getPersons(){
 
-        ResponseEntity<List<Person>> responseEntity = new ResponseEntity <List<Person>>(personService.getPersons(), HttpStatus.OK);
-       return responseEntity;
+        return new ResponseEntity <List<Person>>(personService.getPersons(), HttpStatus.OK);
     }
 
     @GetMapping("/adults")
     public ResponseEntity<List<Person>> getAdults(){
 
-        ResponseEntity<List<Person>> responseEntity = new ResponseEntity <List<Person>>(personService.getAdults(), HttpStatus.OK);
-        return responseEntity;
+       return new ResponseEntity <List<Person>>(personService.getAdults(), HttpStatus.OK);
     }
 
 }
