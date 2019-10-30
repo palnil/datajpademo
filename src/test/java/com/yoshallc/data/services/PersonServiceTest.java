@@ -31,15 +31,15 @@ class PersonServiceTest {
 
     }
 
-    /*@Test
+    @Test
     void getPersons() {
 
 
-      *//*  Person person1 =new Person("Nilesh","Patel","Male", 38);
+       Person person1 =new Person("Nilesh","Patel","Male", 38);
         Person person2 = new Person("Palak","Patel","Female", 39);
         Person person3 = new Person("Swina","Patel","Female", 13);
         Person person4 = new Person("Stuti","Patel","Female", 10);
-*//*
+
         List<Person> personList = new ArrayList<Person>();
         personList.add(person1);
         personList.add(person2);
@@ -66,6 +66,6 @@ class PersonServiceTest {
 
         System.out.println(personService.getPersons().get(0).toString());
     }
-*/
+
 
 }

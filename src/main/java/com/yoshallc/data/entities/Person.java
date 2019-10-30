@@ -13,7 +13,7 @@ import javax.persistence.*;
 public class Person {
 
 
-   /* public Person(String firstName,String lastName,String sex,int age){
+   public Person(String firstName,String lastName,String sex,int age){
         this.firstName = firstName;
         this.lastName = lastName;
         this.sex = sex;
@@ -27,21 +27,5 @@ public class Person {
     private String firstName;
     private String lastName;
     private String sex;
-    private int age;*/
-
-
-   public Person(String firstName,String lastName){
-        this.firstName = firstName;
-        this.lastName = lastName;
-
-    }
-
-    @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
-    private Long id;
-
-    private String firstName;
-    private String lastName;
-
-
+    private int age;
 }
